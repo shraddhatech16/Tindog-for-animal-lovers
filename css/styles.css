@@ -1,0 +1,156 @@
+
+
+body{
+  font-family: "Montserrat";
+}
+h1{
+  font-family: "Montserrat-Black";
+  color: #fff;
+  font-family: "Montserrat-Bold";
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: bolder;
+}
+h2{
+  font-family: "Montserrat-Bold";
+  font-size:3rem;
+  line-height: 1.5;
+  padding: 7% 25%;
+}
+h3{
+  font-family: "Montserrat";
+  font-weight: bolder;
+}
+p{
+  color:#8f8f8f;
+}
+.text-price{
+  align:center;
+
+}
+
+.container-fluid{
+  padding: 3% 15% 7%;
+  /* padding-bottom: 100px; */
+}
+.navbar{
+  padding: 0 0 4.5rem;
+}
+.navbar-brand{
+  color:white;
+  font-weight: bold;
+  font: " Gotham Rounded font";
+  font-family: " Gotham Rounded font";
+  font-size: 3rem;
+
+}
+.nav-link{
+  color: #fff;
+  font-size: 1.2rem;
+  font-family: "Montserrat-Light";
+
+  font-weight: bold;
+}
+.nav-item{
+  padding: 0 18px;
+}
+.download-button{
+  margin: 5% 3% 5% 0;
+}
+.title-image{
+  width: 20%;
+  transform: rotate(25deg);
+  position: absolute;
+  right:20%;
+}
+
+.feature-box{
+  text-align: center;
+  padding: 5%;
+}
+.icon{
+  color:#ef8172;
+  margin-bottom: 1rem;
+
+}
+.icon:hover{
+  color:#ff4c68;
+}
+
+.testimonials-image{
+  width:10%;
+  border-radius:100%;
+  margin:20px;
+}
+
+.press-logo{
+  width:15%;
+  margin:20px 20px 50px;
+}
+.corousel-item{
+  padding:7% 15%;
+}
+
+.pricing-column{
+  padding: :3% 2%;
+}
+.cta-heading{
+  font-family: "Montserrat-Black";
+  line-height: 4rem;
+  font-size:3.5rem;
+}
+#title .container-fluid{
+  padding: 3% 15% 7%;
+}
+.social-icon{
+  margin: 20px 10px;
+}
+#title{
+  background-color: #ff4c68;
+  color: white;
+  font-weight: bolderna;
+
+
+}
+#pricing{
+  padding:100px;
+  text-align: center;
+
+}
+#cta{
+  font-size:3.5rem;
+  color: #fff;
+  background-color:#ff4c68;
+  text-align: center;
+  padding: 7% 15%;
+  line-height: 1.5rem;
+}
+#press{
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+#features{
+  padding: 7% 15%;
+  background-color: white;
+  position: relative;
+
+}
+#testimonials{
+
+  text-align: center;
+  background-color: #ef8172;
+  color:#fff;
+}
+#footer{
+  text-align: center;
+  padding: 7% 15%;
+}
+@media (max-width:1028px) {
+  #title{
+    text-align: center;
+  }
+  .title-image{
+    position: static;
+  }
+}
